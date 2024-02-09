@@ -12,7 +12,7 @@ class GreetingTest(unittest.TestCase):
 
     def test_greeting_evening(self):
         self.assertEqual(greeting.find_greeting(18), "Good Evening")
-        
+
     def test_greeting_night(self):
         self.assertEqual(greeting.find_greeting(21), "Good Night")
 
